@@ -1,0 +1,43 @@
+/* bookmarking */ 
+
+.bookmark{}
+.nav-section.bookmark a{vertical-align: middle;}
+.nav-section.bookmark a span.title{display: none;}
+.nav-section.bookmark ul{text-align: center;}
+.nav-section.bookmark ul li{display: inline-block; padding:0 2px; vertical-align: text-top; margin: 0;}
+
+.nav-section.bookmark .ico::before{font-family: "Awesome"; display: inline-block; color: #fff; font-size: 1.5rem; line-height: 23px; height: 2.1rem; margin: 0; width: 2.1rem; text-align: center; background-color: #fff; }
+
+.nav-section.bookmark .ico-bibsonomy::before{content: "B"; background:#006699; color:#fff; font-weight: bold; font-family: Arial, sans-serif;}
+.nav-section.bookmark .ico-citeulike::before{content: "\f039"; background-color: #647b39; color: #fff;}
+.nav-section.bookmark .ico-facebook::before{content: "\f09a"; background-color:#3b5998;}
+.nav-section.bookmark .ico-google::before{content: "\f0d5";  background-color: #c83e24;}
+.nav-section.bookmark .ico-linkedin::before{content: "\f0e1";  background-color: #2489d9;}
+.nav-section.bookmark .ico-sinaweibo::before{content: "\f18a"; color:#fff; background-color: #eb192d;}
+.nav-section.bookmark .ico-twitter::before, .nav-section.bookmark .ico-x::before{content: "\f099"; background-color: #000;}
+.nav-section.bookmark .ico-bluesky::before{content: "\e671"; background-color: #1185fe;}
+.nav-section.bookmark .ico-mastodon::before{content: "\f4f6"; background: linear-gradient(#6364FF, #563ACC);}
+.nav-section.bookmark .ico:focus-within::before, .nav-section.bookmark .ico:hover::before{opacity: 0.85;}
+
+.nav-section.bookmark .share-icon-svg {fill: #fff; width: 2.1rem; height: 2.1rem; border-radius: 5px}
+.nav-section.bookmark .share-icon-svg-mendeley {fill: #9d1620; opacity: 0.85}
+
+
+/*
+.ico-delicious::before{content: "\f1a5"; padding:0; color: #000;}
+.ico-digg::before{content: "\f1a6"; color:#000; padding:0;}
+.ico-mendeley::before{content: "M"; color: transparent; background: url('../images/ico-mendelay.svg') #9d1620 center center no-repeat;}
+*/
+
+/*
+.bookmark .ico-16{display: inline-block; width: 16px; height: 16px; background: url(../images/social-article-16.png);}
+.bookmark .ico-16.ico-bibsonomy{background-position: 0 0;}
+.bookmark .ico-16.ico-citeulike{background-position: -16px 0;}
+.bookmark .ico-16.ico-delicious{background-position: -32px 0;}
+.bookmark .ico-16.ico-digg{background-position: -48px 0;}
+.bookmark .ico-16.ico-facebook{background-position: -64px 0;}
+.bookmark .ico-16.ico-linkedin{background-position: -96px 0;}
+.bookmark .ico-16.ico-mendeley{background-position: -112px 0;}
+.bookmark .ico-16.ico-sinaweibo{background-position: -128px 0;}
+.bookmark .ico-16.ico-twitter{background-position: -144px 0;}
+*/

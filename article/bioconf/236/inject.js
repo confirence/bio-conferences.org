@@ -37,9 +37,12 @@
         tmp.innerHTML = html;
         var el = tmp.firstElementChild;
 
-        // Fill title
+        // Fill title + routing link
         var titleEl = el.querySelector('.article_title_for-js');
-        if (titleEl) titleEl.textContent = data.title;
+        if (titleEl) {
+            titleEl.textContent = data.title;
+            titleEl.href = 'bioconf_foset2026_03006/29/dl/temlateBigArticle.html?doi=' + data.doi;
+        }
 
         // Fill authors
         var authorsEl = el.querySelector('.article-authors');
