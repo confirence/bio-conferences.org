@@ -1,0 +1,126 @@
+/* CCS COMPOSANT TOC 02/2014 */
+
+/* titre, volume */
+#toc .details, #toc .details p, #topic .details{text-align: center;}
+#toc .details h1, #topic .details h1{border:0; color: #000; margin-bottom: 0; background: transparent;}
+#toc .details h2{border:0; color: #333; margin-top: 0;}
+#toc .details+section.science{margin-top: 25px}
+
+#toc section > h2, #toc section > h1{font-style: italic; border:0; color: #000; padding: 0; margin: 0 0 15px 0; display: inline-block; background: transparent;}
+#toc section.topic > h2{font-style: normal; text-align: center; display: block; margin:1rem 1rem 1rem 0;}
+#toc section > h2:focus-within, #toc section > h2:hover,#toc section h2.plus,#toc section > h1:focus-within, #toc section > h1:hover,#toc section h1.plus{cursor:pointer; color: #1C30B3;}
+#toc section > h2.minus, #toc section > h1.minus{margin-bottom: 10px;}
+.plus:before {content:"+"; display: inline-block; margin-right: 5px;}
+.minus:before {content:"-"; display: inline-block; margin-right: 5px;}
+
+#toc section.mag{background-color: #F8F8F8; padding: 8px;}
+
+/* navigation sort-by*/
+nav.sort-by{background-color: #F4F4F4;  border: 1px solid #D0D0D0; padding: 3px; width: 300px; margin: 0 auto; text-align: center; border-radius: 3px;}
+nav.sort-by a{padding:0 8px;}
+nav.sort-by a+a{border-left:solid 1px #333; padding-left: 9px;}
+nav.sort-by+section{margin-top: 25px;}
+nav.sort-by .active{font-weight: bold;}
+
+/* colonne d images (AA par exemple) */
+aside#imgcol{width: 200px; border: solid 1px #d3d3d3; padding:5px; margin:45px 10px 10px 15px; float:right; text-align:center; background-color:#F9F9F9;}
+aside#imgcol figure{margin: 10px auto 5px; padding-top: 10px;}
+aside#imgcol figure img{border: solid 1px #d3d3d3;}
+aside#imgcol figure figcaption{ margin-bottom:10px;  color:#525252;}
+aside#imgcol figure+figure{border-top:dashed 1px grey;}
+#toc aside#imgcol{margin-top: 65px;}
+
+/* image couverture */
+#toc figure.cover{float: left; margin: 0;}
+#toc figure.cover img{padding:3px; border:solid 1px #D0D0D0; margin-bottom: 5px; max-height: 200px;}
+#toc .cover-caption{border: 1px solid #eee; background-color: #f9f9f9; padding: 1rem; border-radius: 5px;}
+#toc .cover-caption p{margin: 0;}
+#toc figure+h1{padding-top: 30px}
+
+/* forthcoming */
+#forthcoming nav.sort-by{margin-bottom: 2rem}
+
+/* intro */
+#toc .intro {padding: 0 15px 20px; text-align: justify;}
+
+/* section d'articles */
+nav.sectionlist{margin: 20px 0;}
+nav.sectionlist ul{border: 1px solid #eee; background-color:#f9f9f9; padding: 10px 10px 10px 20px; border-radius: 5px; box-shadow: inset 0 0 0 1px #fff; margin:0; -moz-column-count:2; -webkit-column-count:2; column-count:2; -moz-column-gap:5px; -webkit-column-gap:5px; column-gap:5px; -webkit-column-break-inside:avoid;
+-moz-column-break-inside:avoid; -o-column-break-inside:avoid; -ms-column-break-inside:avoid; column-break-inside:avoid; list-style: none; box-shadow: inset 0 1px #fff;}
+nav.sectionlist ul:empty{display: none;}
+nav.sectionlist ul li{padding: 4px 4px 0 5px; position: relative; font-size: 0.9rem;}
+nav.sectionlist ul li:before{position: absolute; content: ""; display: block; border-style:solid; border-width:4px; border-color:transparent transparent transparent #333; top:8px; left: -5px}
+nav.sectionlist ul li:focus-within:before, nav.sectionlist ul li:hover:before{border-color:transparent transparent transparent var(--color-main);}
+
+@media screen and (max-width: 600px){
+	nav.sectionlist ul{column-count: 1;}
+	aside#imgcol{width: auto; float: none;}
+}
+
+
+section.science article, section.mag article{margin-bottom: 20px;}
+section.science+section.science{margin-top: 30px;}
+
+/* linkmanager search by volume*/
+section.science.found article{padding: 5px}
+section.science.found article:nth-child(2n){background-color: #F4F4F4;}
+
+/* export */
+.export-check{background-color:#e1e1e1; float: left; padding: 4px}
+.export-article{margin-left: 30px}
+article.science.export{background: url('../../source/images/export_bg.png') repeat-y top left;}
+
+/* highlight */
+section.highlight{padding: 26px 10px 8px 10px; margin:20px 0; border-radius:5px; background-color: #e3f9f9; border:solid 1px #d5dee5;}
+
+/* topic */
+#toc section.topic > h1{font-size:13px; font-style: normal; border:0; padding: 0; margin: 10px 0 15px 0; display: block; text-align: center; font-family: verdana}
+#toc section.topic > p {text-align: center;}
+section.topic{padding: 6px 10px 8px 10px; margin:20px 0; border-radius:5px; background-color: #fdede1; border:solid 1px #fdd3b3;}
+section.topic a.topical_article{display: none;}
+
+article.science.topic{padding: 10px 10px 10px 0;}
+article.science.topic .export-check{background-color: transparent;}
+
+/* a revoir */
+.cadre_bas {background-color:#f8f8f8; padding:8px; border:solid 1px #e0e0e0;}
+.cadre_bas .espace_nofield{line-height:5px; margin-bottom:0px;}
+.cadre_bas div.espace_nofield + div{ margin-top:23px;}
+
+/*not connected*/
+.not_connected{background-color: #42947B; color: #FFFFFF; font-weight: bold; margin-bottom: 0; padding: 5px 10px;}
+.not_connected strong{color:#fff;}
+.not_connected_links {background-color: #c6dfd7; font-weight: bold; padding: 5px 10px; margin-bottom: 20px;}
+
+/*pour les vieux sommaires en html*/
+.stitre_complet{font-weight: bold;}
+.image_caption2{background-color: #F4F4F4; border-bottom: 1px solid #D0D0D0; margin-bottom: 20px; margin-top: 10px; padding: 3px;}
+
+/* ??? */
+div.titre_topic{background-color: #82C5DE;	padding: 10px;	margin: 6px; font-weight: 600;}
+
+.espace_nofield{margin-bottom:10px;}
+
+#toc .title_toc{padding-top:25px; float:right; text-align:center; width:660px;}
+#toc .title_toc p{font-weight:bold;}
+#toc .title_toc p .stitre{font-size:12px;}
+#toc .title_toc p .stitre.issue_title{font-size:11px; color:#4e4e4e;}
+
+.avatar{padding:0 3px 0 5px; float: left; margin: 0 10px 15px 0;}
+.avatar img{border:solid 1px #ccc;}
+
+
+.article_publication{display: inline-flex; vertical-align: top; color: #333; margin: 3px 5px 2px 0; height: 1.3rem;}
+.article_publication span{height: 100%; padding:0 0.5rem 0.5rem 0.5rem;}
+.article_publication .ico+span{display: inline-block; padding-left: 1rem; padding-right: 1rem; background-color: #eee; border: solid 1px #ccc; border-radius: 0 5px 5px 0;}
+.article_publication .ico{position: relative; border-radius:5px 0 0 5px; color:#fff;}
+.article_publication .ico::before{font-family: "Awesome"; margin: 0 0.5rem 0 0; font-weight: normal; position: relative; left: 0.3rem; transition: all ease 200ms;}
+.article_publication .ico-publish{background-color: #0070bb; border:solid 1px #0070bb;}
+.article_publication .ico-publish::before{content: "\f067";}
+.article_publication .ico-unpublish{background-color: #bb0000; border:solid 1px #bb0000;}
+.article_publication .ico-unpublish::before{content: "\f068";}
+.article_publication:focus-within, .article_publication:hover{text-decoration: none;}
+.article_publication:focus-within .ico::before, .article_publication:hover .ico::before{font-size: 1.3rem;}
+.article_publication:focus-within .ico-publish+span, .article_publication:hover .ico-publish+span{color:#0070bb}
+.article_publication:focus-within .ico-unpublish+span, .article_publication:hover .ico-unpublish+span{color:#bb0000}
+.science .article_publication + h2{margin-top: 0.75rem;}
