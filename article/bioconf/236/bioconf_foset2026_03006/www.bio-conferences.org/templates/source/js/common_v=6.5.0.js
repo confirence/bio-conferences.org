@@ -14,8 +14,8 @@ jQuery(function($) {
    * Author
    * -------------------------------------------------------
    */
-   /* Display author qtip */
-  $(document).on('mouseover click', '.article-authors .author[data-url]', function(event) {
+   /* Display author qtip - disabled */
+  /* $(document).on('mouseover click', '.article-authors .author[data-url]', function(event) {
     var url = $(this).data('url');
     $(this).qtip({
       overwrite: false,
@@ -53,7 +53,7 @@ jQuery(function($) {
         inactive: 4000
       }
     }, event);
-  });
+  }); */
 
   /* Author etal. */
   $('a.author_etal').click(function() {
