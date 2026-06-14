@@ -220,7 +220,7 @@ economic resilience.`,
     7: {
         title: `Primary Healthcare Strengthening to Improve
 National Health and System Resilience`,
-        doi: `0100178`,
+        doi: `100188`,
         authors: [
             ['Kantemoriva Mira', 1, false],
             ['Khadartsev Aslan', 1, true],
