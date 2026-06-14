@@ -148,36 +148,36 @@ with a matched control group from non-reservoir regions.`,
     },
 
 
-    5: {
-        title: `Integration of IT technologies into intelligent
-transport systems: challenges and prospects`,
-        doi: `0100177`,
-        authors: [
-            ['Ibragimova Zalina', 1, true],
-            ['Amirova Elmira', 1, false],
-            ['Teplaya Naila', 1, false],
+//     5: {
+//         title: `Integration of IT technologies into intelligent
+// transport systems: challenges and prospects`,
+//         doi: `0100177`,
+//         authors: [
+//             ['Ibragimova Zalina', 1, true],
+//             ['Amirova Elmira', 1, false],
+//             ['Teplaya Naila', 1, false],
 
-        ],
-        university: [
-            `Chechen State University named after A.A. Kadyrov, Grozny, Russia`,
-            `Kazan State Agrarian University, Kazan, Russia`,
-            `Moscow State University of Technology and Management named after K.G. Razumovsky, Moscow,
-Russia`,
-        ],
-        text: `This article explores current trends in the integration of
-information technology (IT) into intelligent transportation systems (ITS), considering
-key challenges and development prospects in this area. It analyzes modern approaches
-to the use of cloud platforms, big data processing systems, Internet of Things (IoT)
-technologies, artificial intelligence, and machine learning in transportation
-infrastructure. Particular attention is paid to improving safety, traffic optimization,
-reducing the load on transportation networks, and improving the quality of user
-service. The article also identifies the technological, organizational, and regulatory
-barriers that arise when implementing IT solutions in transportation systems. It
-concludes that the comprehensive integration of IT technologies improves the
-efficiency, sustainability, and intelligence of transportation infrastructure, laying the
-foundation for the further development of smart cities and sustainable mobility.`,
-        mail: 'iibragimovazalina@mail.ru',
-    },
+//         ],
+//         university: [
+//             `Chechen State University named after A.A. Kadyrov, Grozny, Russia`,
+//             `Kazan State Agrarian University, Kazan, Russia`,
+//             `Moscow State University of Technology and Management named after K.G. Razumovsky, Moscow,
+// Russia`,
+//         ],
+//         text: `This article explores current trends in the integration of
+// information technology (IT) into intelligent transportation systems (ITS), considering
+// key challenges and development prospects in this area. It analyzes modern approaches
+// to the use of cloud platforms, big data processing systems, Internet of Things (IoT)
+// technologies, artificial intelligence, and machine learning in transportation
+// infrastructure. Particular attention is paid to improving safety, traffic optimization,
+// reducing the load on transportation networks, and improving the quality of user
+// service. The article also identifies the technological, organizational, and regulatory
+// barriers that arise when implementing IT solutions in transportation systems. It
+// concludes that the comprehensive integration of IT technologies improves the
+// efficiency, sustainability, and intelligence of transportation infrastructure, laying the
+// foundation for the further development of smart cities and sustainable mobility.`,
+//         mail: 'iibragimovazalina@mail.ru',
+//     },
 
     6: {
         title: `Health of the Nation as a Key Driver of Sustainable Socio-
