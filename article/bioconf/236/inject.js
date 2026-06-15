@@ -13,10 +13,14 @@
             var name = author[0];
             var n = i + 1;
             var isLast = i === authors.length - 1;
+            var isSecondToLast = i === authors.length - 2;
             var span = '<span class="author" data-url="/component/author/?dkey=10.1051/bioconf/2026236'
                 + doi + '&n=' + n + '">' + name + '</span>';
-            if (isLast && authors.length > 1) {
-                parts.push('and ' + span);
+
+            if (isLast) {
+                parts.push(authors.length > 1 ? 'and ' + span : span);
+            } else if (isSecondToLast) {
+                parts.push(span); // no comma before "and"
             } else {
                 parts.push(span + ',');
             }
