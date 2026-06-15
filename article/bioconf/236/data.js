@@ -474,4 +474,140 @@ properties as a highly reliable alternative for modern root canal obturation.`,
         mail: 'post@astgmu.ru',
     },
 
+      14: {
+        title: `Organization of the work of the agro-industrial
+complex using information modeling methods`,
+        doi: `0100195`,
+        authors: [
+            ['Dmitry Budnikov', 1, true],
+            ['Amirova Elmira', 2, false],
+        ],
+        university: [
+            `Federal Scientific Agroengineering Center VIM`,
+            `Kazan State Agrarian University`,
+        ],
+        text: `The transition to Industry 4.0 in agriculture necessitates advanced
+digital tools to manage the increasing complexity and scale of the agro-
+industrial complex. Traditional two-dimensional design and fragmented data
+management systems lead to significant inefficiencies in the planning,
+construction, and operation of agricultural infrastructure and production
+facilities. To address this critical gap, this study develops and evaluates a
+comprehensive framework for organizing the work of the agro-industrial
+complex using advanced information modeling methods, specifically
+integrating Agro-BIM (Building Information Modeling for Agriculture),
+Geographic Information Systems, and Digital Twin technologies. The
+methodology combines the creation of a unified semantic information model
+for agricultural assets with a pilot implementation at a large-scale agro-
+holding. By integrating multi-dimensional design models with real-time
+Internet of Things data streams into a centralized Common Data Environment,
+we utilized discrete-event simulation and process mining to optimize the entire
+lifecycle management of agricultural facilities. The empirical results
+demonstrate that the implementation of this information modeling framework
+reduced design conflicts by 34% and decreased the construction time for new
+agricultural infrastructure by 18%.`,
+        mail: 'dimm13@inbox.ru',
+    },
+
+     15: {
+        title: `Implementation of the National Healthcare
+Project in the North Caucasus Federal District: a
+comparative analysis`,
+        doi: `0100189`,
+        authors: [
+            ['Kantemoriva Mira', 1, true],
+            ['Tsabiev Vitaly', 1, false],
+            ['Dzoblaeva Dzerass', 1, false],
+            ['Sarkisyan Diana', 1, false],
+            ['Kheteeva Nicole', 1, false],
+        ],
+        university: [
+            `North Ossetian State Medical Academy`,
+        ],
+        text: ` The article presents a comparative analysis of the implementation
+of the national project “Healthcare” in the North Caucasus Federal District
+during the period 2022–2025, with an assessment of the dynamics of key
+indicators of Federal Projects No. 1–5 and No. 9. The aim of the study was to
+identify the institutional and medico-demographic effects of healthcare system
+modernization at the macro-regional level and to assess the degree of
+achievement of the project’s target benchmarks at the final stage of its
+implementation (using the Republic of North Ossetia–Alania as a case study).
+The study is based on the analysis of official statistical data for 2022–2024
+and their comparison with the target values set for 2025. Methods of
+comparative, dynamic, and target-oriented analysis were applied. The results
+indicate a steady decline in mortality from diseases of the circulatory system,
+an increase in the proportion of early cancer detection, and stabilization of
+healthcare workforce provision. At the same time, risks associated with
+fluctuations in funding for primary healthcare modernization were identified.
+It is concluded that the target indicators have been partially achieved and that
+further institutional strengthening of the regional healthcare system is
+required.`,
+        mail: 'vtsabi@bk.ru',
+    },
+
+         16: {
+        title: `The Role of Preventive Medicine in Achieving
+Sustainable Development Goals`,
+        doi: `0100127`,
+        authors: [
+            ['Musostova Ainet', 1, true],
+            ['Akmurzaev Idris', 2, false],
+            ['Antipkina Luana', 1, false],
+            ['Berezhneva Valeria', 1, false],
+            ['Magomedova Maryam', 1, false],
+        ],
+        university: [
+            `Sechenov University`,
+            `North Ossetian State Medical Academy`,
+        ],
+        text: ` While preventive medicine is widely recognized as a cornerstone
+of public health, its quantifiable impact on the broader Sustainable
+Development Goals (SDGs) agenda remains insufficiently synthesized. This
+study aims to evaluate the multidimensional role of preventive interventions
+in accelerating the achievement of the 2030 Agenda, focusing on the
+synergies between health outcomes and socio-economic development.
+Utilizing a mixed-methods approach, we conducted a comprehensive
+analysis of global health and macroeconomic data from 45 low- and middle-
+income countries (LMICs) between 2015 and 2024. The methodology
+integrated a systematic review of primary and secondary prevention
+programs—such as immunization, non-communicable disease (NCD)
+screening, and maternal health initiatives—with a cost-benefit
+macroeconomic modeling framework to calculate the return on investment
+(ROI) and map health outcomes against specific SDG indicators.`,
+        mail: 'aynet_m@icloud.com',
+    },
+
+            17: {
+        title: `An IoT-Enabled Digital Twin Framework for
+Spatiotemporal Modeling and Predictive
+Optimization of Urban Carbon Emissions Using
+Graph Neural Networks`,
+        doi: `0100125`,
+        authors: [
+            ['Kubrina Lydmila', 1, true],
+        ],
+        university: [
+            `Omsk State Pedagogical University`,
+        ],
+        text: ` Rapid urbanization has intensified carbon emissions, yet existing
+monitoring frameworks rely on static, retrospective inventories that fail to
+capture the dynamic spatiotemporal complexity of urban pollution. To
+address this critical gap in smart city environmental management, this study
+proposes a novel Internet of Things (IoT)-enabled Digital Twin framework
+integrated with Graph Neural Networks (GNNs) for real-time
+spatiotemporal modeling and predictive optimization of urban carbon
+emissions. The proposed framework integrates heterogeneous IoT sensor
+networks, capturing CO2, NOx, traffic flow, and meteorological data,
+alongside satellite imagery into a unified data pipeline processed via edge
+computing. Within this architecture, a city-scale graph representation was
+constructed where intersections and emission sources serve as nodes, and
+road networks and wind corridors function as edges. A Spatiotemporal
+Graph Convolutional Network (ST-GCN) was subsequently developed to
+capture non-linear dependencies across space and time, while a
+reinforcement learning agent was deployed within the Digital Twin
+environment to simulate and optimize traffic signal coordination and
+emission reduction strategies.`,
+        mail: 'kubrina‐lyudmila@mail.ru',
+    },
+
+    
 };
