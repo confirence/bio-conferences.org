@@ -609,5 +609,41 @@ emission reduction strategies.`,
         mail: 'kubrina‐lyudmila@mail.ru',
     },
 
+                18: {
+        title: `Clinical and Economic Impact of AI-Driven Remote
+Patient Monitoring in Heart Failure with Preserved
+Ejection Fraction (HFpEF): A Pragmatic
+Randomized Controlled Trial`,
+        doi: `0100165`,
+        authors: [
+            ['Ibrahim Matsaev', 1, false],
+            ['Dzhavatkhanov Ruman', 2, true],
+        ],
+        university: [
+            `North Ossetian State Medical Academy`,
+            `Khetagurov North Ossetian State University`,
+        ],
+        text: `Heart failure with preserved ejection fraction (HFpEF) is characterized
+by high rates of recurrent hospitalizations and significant healthcare expenditures,
+yet effective pharmacological interventions remain limited, creating an urgent
+need for innovative management strategies. To address this critical gap, this
+pragmatic randomized controlled trial aimed to evaluate the clinical efficacy and
+cost-effectiveness of an artificial intelligence (AI)-driven remote patient
+monitoring (RPM) system compared to usual care in reducing heart failure-related
+hospitalizations and improving quality of life. We conducted a multicenter,
+parallel-group study involving 800 patients with a confirmed diagnosis of HFpEF
+(left ventricular ejection fraction ≥50%) who had been discharged from the
+hospital within the preceding 30 days, randomly assigning them in a 1:1 ratio to
+either the AI-driven RPM intervention group (n=400) or the usual care control
+group (n=400). The intervention group utilized a suite of connected Internet of
+Things (IoT) devices, including smart scales, Bluetooth blood pressure monitors,
+and pulse oximeters, integrated with a mobile application for daily symptom
+tracking, while a machine learning algorithm based on a gradient boosting model
+continuously analyzed these multimodal data streams to detect subtle
+physiological trends indicative of impending decompensation, triggering
+automated clinical alerts to the care team 5 to 7 days prior to expected clinical
+deterioration.`,
+        mail: 'rumandzavathanov@gmail.com',
+    },
     
 };
