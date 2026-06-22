@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://confirence.github.io/bio-conferences.org/sitemap.xml
