@@ -681,4 +681,38 @@ impact resistance due to excessive cross-linking density and subsequent polymer
 embrittlement. Statistical analysis via two-way ANOVA.`,
         mail: 'sogma@minzdrav.alania.gov.ru',
     },
+
+     20: {
+        title: `How Industrial Curing Methods Affect the
+Mechanical Properties of Additively Manufactured
+Dental Polymers`,
+        doi: `0100176`,
+        authors: [
+            ['Ruslan Abitaev', 1],
+        ],
+        university: [
+            `North Ossetian State Medical Academy`,
+        ],
+        text: `The rapid integration of additive manufacturing into dental prosthetics
+has made the post-processing of photopolymer resins a critical engineering
+bottleneck, as the final mechanical integrity of printed parts is heavily dictated by
+the curing phase, which often lacks industrial standardization in clinical
+workflows. This study investigates the impact of three distinct industrial curing
+protocols—conventional ambient-air ultraviolet (UV) curing, industrial nitrogen-
+inerted UV curing, and a hybrid thermal-UV curing process—on the mechanical
+properties and polymerization kinetics of two commercially available dental resins
+(a high-precision model resin and a load-bearing permanent crown resin).
+Standardized test specimens were fabricated using a high-resolution digital light
+processing (DLP) printer, uniformly washed in isopropanol, and subjected to the
+respective post-processing workflows.The empirical results demonstrated that
+industrial nitrogen-inerted UV curing significantly outperformed conventional
+ambient methods, yielding a 28% increase in flexural strength (from 85.4 ± 4.2
+MPa to 109.3 ± 5.1 MPa) and a 22% improvement in surface microhardness,
+primarily by eliminating oxygen inhibition at the material surface during
+photopolymerization. Conversely, while the hybrid thermal-UV method achieved
+the highest overall degree of conversion (88.5%), it induced a 12% reduction in
+impact resistance due to excessive cross-linking density and subsequent polymer
+embrittlement. Statistical analysis via two-way ANOVA`,
+        mail: 'abitaev00.00@mail.ru',
+    },
 };
