@@ -77,6 +77,7 @@ the Sustainable Development Goals (SDGs)`,
         authors: [
             ['Abitaev Ruslan', 1, false],
             ['Khadartsev Aslan', 1, true],
+            ['Dzakhov Albert', 1, false],
             ['Bitarov Sarmat', 1, false],
             ['Guldaeva Tereza', 1, false],
 
