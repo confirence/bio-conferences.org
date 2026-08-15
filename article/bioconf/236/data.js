@@ -753,4 +753,33 @@ automated clinical alerts to the care team 5 to 7 days prior to expected clinica
 deterioration.`,
         mail: 'ramzanokuev65@gmail.com',
     },
+
+    22: {
+        title: `A five-year randomized study of the clinical
+durability of bioactive glass-filled composites in
+posterior restorations`,
+        doi: `0100134`,
+        authors: [
+            ['Ugazaev Magomed', 1, true],
+        ],
+        university: [
+            `North Ossetian State Medical Academy`,
+        ],
+        text: `Bioactive glass-containing composites have been proposed to enhance
+the longevity of posterior restorations through ion release, remineralization
+potential, and antibacterial properties; however, long-term clinical evidence
+supporting their superiority over conventional composites remains limited. This
+randomized controlled trial aimed to evaluate the 5-year clinical performance of a
+bioactive glass-containing composite versus a nano-hybrid composite in Class I
+and II posterior restorations. A parallel-group, single-blind randomized controlled
+trial was conducted in 186 patients requiring at least two posterior restorations,
+resulting in a total of 372 restorations randomly allocated to either the bioactive
+glass composite group (Activa BioActive Restorative) or the nano-hybrid
+composite control group (Filtek Z550). All restorations were placed using a total-
+etch adhesive system by calibrated operators following a standardized protocol.
+Clinical evaluations were performed at baseline, 6 months, and 1, 3, and 5 years
+using modified USPHS and FDI criteria, with survival analysis conducted using
+Kaplan-Meier curves and log-rank tests.`,
+        mail: 'ugazaev.09@mail.ru',
+    },
 };
