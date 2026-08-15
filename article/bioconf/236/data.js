@@ -758,7 +758,7 @@ deterioration.`,
         title: `A five-year randomized study of the clinical
 durability of bioactive glass-filled composites in
 posterior restorations`,
-        doi: `0100134`,
+        doi: `0100196`,
         authors: [
             ['Ugazaev Magomed', 1, true],
         ],
