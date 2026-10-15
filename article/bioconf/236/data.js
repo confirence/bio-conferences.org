@@ -782,4 +782,39 @@ using modified USPHS and FDI criteria, with survival analysis conducted using
 Kaplan-Meier curves and log-rank tests.`,
         mail: 'ugazaev.09@mail.ru',
     },
+
+    23: {
+        title: `Evaluation and prediction of economic security
+risks in regional socio-economic systems`,
+        doi: `0100129`,
+        authors: [
+            ['Abdirashid Mirzakhmedov', 1, true], ['Khurshid Mirzakhmedov', 2, false], ['Sergey Valeev', 3, false],
+        ],
+        university: [
+            `Namangan Institute of Engineering and Technology, Kasansay Street, 7, Namangan, 160115, Republic
+of Uzbekistan`, 
+            'Namangan State University, 161, Boburshokh Street, Namangan, 160107, Republic of Uzbekistan',
+            'Kazan National Research Technological University',
+        ],
+        text: `This article explores human ecology as a condition for
+highquality demography, regulation of the social foundations of the society
+of modern Central Asia, which arose the problem of improving the human
+race. Eugenics from Plato to F. Galton has gone through an evolutionary
+path of searching for the fulfilment of a social order to improve social life
+as a living social organism. The development of the ideology of eugenics
+has a negative and positive character - two opposite parallels associated with
+Nazi barbarism and the ethno-confessional way of family life. Based on
+religious and national traditions and values, the author analyses the problems
+of improving the quality of the population, aimed at developing a
+harmoniously developed generation on the example of the great ancestors of
+the Middle Ages. According to the author, in the traditions of the peoples of
+Central Asia, targeted program approaches have still been preserved to
+improve the quality of the population by strengthening the family and
+marriage, which prevents celibacy, incest, sexual lack of culture, and an
+increase in the number of illegitimate children. In this regard, the author puts
+forward the Muslim demographic development programs as a condition for
+the spiritual and moral stability of social life, strengthening the family and
+marriage as a guarantor of social progress.`,
+        mail: 'mirzahmedov@mail.ru',
+    },
 };
